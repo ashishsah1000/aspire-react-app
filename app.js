@@ -7,7 +7,7 @@ var cors = require('cors')
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var appRouter   = require('./routes/apps')
-
+var mongoose = require("mongoose");
 
 var app = express();
 // app.listen(4000,()=>{
